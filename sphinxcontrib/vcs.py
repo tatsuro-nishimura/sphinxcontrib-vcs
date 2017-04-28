@@ -28,7 +28,7 @@ def get_revision(argument):
 
 
 def is_merge(commit):
-    return commit.message[0:6] == 'Merged'
+    return len(commit.parents) > 1
 
 
 OPTION_INCLUDE_DIFF = 'include_diff'
