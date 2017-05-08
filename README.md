@@ -23,6 +23,7 @@ Then, repository directives are available as follows.
         :number_of_revisions: 20
         :with_ref_url:
         :include_diff:
+        :only_merged:
 
 
 ### Mercurial
@@ -31,6 +32,7 @@ Then, repository directives are available as follows.
         :number_of_revisions: 20
         :with_ref_url:
         :include_diff:
+        :only_merged:
 
 For more information have a look at [the documentation](https://pythonhosted.org/sphinxcontrib-vcs/).
 
